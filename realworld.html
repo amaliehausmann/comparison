@@ -34,7 +34,7 @@
             <select id="answerOne" name="questionOne">
                 <option value="false">ja</option>
                 <option value="true">nej</option>
-                <option value="true">ja i disney film</option>
+                <option value="also true">ja i disney film</option>
             </select>
             <button id="answerButton">svar</button>
             <h4 id="answerFeedback">Vælg det rigtige svar</h4>
@@ -51,16 +51,16 @@
 
         <h2>form validering</h2>
 
-        <form>
+        <form id="myform">
             <label for="navn">Navn:</label><br>
             <input type="text" id="myName" name="name" placeholder="Skriv dit navn her"><br>
 
             <label for="email">Email:</label><br>
-            <input type="text" id="myEmail" name="email" placeholder="Skriv din email her"><br>
+            <input type="text" id="myEmail" name="email" placeholder="Skriv din email her" required><br>
 
 
             <label for="age">alder:</label><br>
-            <input type="text" id="myAge" name="age" placeholder="Alder"><br>
+            <input type="text" id="myAge" name="age" placeholder="Alder" required><br>
 
 
             <button id="submitButton">indsend</button>
